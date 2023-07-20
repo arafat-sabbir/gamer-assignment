@@ -120,3 +120,129 @@
        margin-left: 20px;
     }
 }
+@media screen and (min-width:577px) and (max-width:992px) {
+    .banner-img,
+    .banner-content,
+    .play-content,
+    .play-img,
+    .play-content {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    .nav-bar,
+    .games {
+        flex-direction: column;
+    }
+
+    .play-games {
+        gap: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .play-games,
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .play-games p {
+        margin-bottom: 50px;
+    }
+
+    .banner-content {
+        text-align: center;
+    }
+
+    .option-games-section {
+        padding: 0;
+    }
+
+    .footer {
+        max-width: 100%
+    }
+
+    .banner-content,
+    .goat,
+    .play,
+    .banner-content p .games p {
+        text-align: center;
+    }
+
+    .footer-detail {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        width: 87vmin;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .footer-logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        width: 87vmin;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .footer-logo p {
+        margin: 0px;
+    }
+
+    .footer-privacy {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        margin-top: 30px;
+        gap: 5px;
+    }
+
+    .games-option {
+        display: grid;
+        grid-template-columns: repeat(3, 20px);
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    .option {
+        width: 32px;
+        height: 30px;
+        font-size: 0.5rem;
+        font-weight: 300;
+    }
+
+    .option img {
+        width: 300%;
+    }
+
+    .option p {
+        font-size: 100%;
+    }
+
+    .banner-content p {
+        text-align: center;
+    }
+    .games {
+       margin-left: 200px;
+    }
+    .play-child {
+        position: absolute;
+        top: 610px;
+        left: 480px;
+    }
+}
