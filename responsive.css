@@ -1,0 +1,42 @@
+@media screen and (max-width:575px) {
+
+    .banner-img,
+    .banner-content,
+    .play-content {
+        width: 100%;
+    }
+
+
+    .nav-bar,
+    .nav-content,
+    .games {
+        flex-direction: column;
+    }
+
+    .play-games {
+        gap: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .play-games ,
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .play-games p{
+        margin-bottom: 50px;
+    }
+    .banner-content{
+       text-align: center;
+    }
+    .option-games-section {
+        padding: 0;
+    }
+    /* .footer-privacy,
+    .footer-logo,
+    .footer-detail ,
+    .footer-detail {
+        flex-wrap: wrap;
+    } */
+ 
+}
