@@ -2,6 +2,8 @@
 
     .banner-img,
     .banner-content,
+    .play-content,
+    .play-img,
     .play-content {
         width: 100%;
     }
@@ -19,26 +21,71 @@
         text-align: center;
     }
 
-    .play-games ,
-    .banner{
+    .play-games,
+    .banner {
         flex-direction: column-reverse;
     }
-    .play-games p{
+
+    .play-games p {
         margin-bottom: 50px;
     }
-    .banner-content{
-       text-align: center;
+
+    .banner-content {
+        text-align: center;
     }
+
     .option-games-section {
         padding: 0;
     }
-    .footer-privacy,
-    .footer-logo,
-    .footer-detail ,
-    .footer-detail {
-        flex-wrap: wrap;
-    }
-    .footer{
+
+    .footer {
         max-width: 100vmin;
+    }
+
+    .banner-content,
+    .goat,
+    .play,
+    .banner-content p .games p {
+        text-align: center;
+    }
+
+    .footer-detail {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        width: 87vmin;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+    .footer-logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+        width: 87vmin;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .footer-logo p {
+        margin: 0px;
+    }
+
+    .footer-privacy {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    
+        margin: 0;
+        margin-top: 30px;
+        gap: 5px;
     }
 }
