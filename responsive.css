@@ -32,11 +32,13 @@
     .option-games-section {
         padding: 0;
     }
-    /* .footer-privacy,
+    .footer-privacy,
     .footer-logo,
     .footer-detail ,
     .footer-detail {
         flex-wrap: wrap;
-    } */
- 
+    }
+    .footer{
+        max-width: 100vmin;
+    }
 }
